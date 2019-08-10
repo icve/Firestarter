@@ -14,6 +14,7 @@
 
 * Mapping dedicated key to to perform IoT/hardware actions provide alternate way to interact with IoT device and is faster than using an UI but it's costly because Keyboards often require a computer with operating system and driver to work, an computer capable of running OS increases the cost of deployment. 
 
+ 
 
 ## Solutions:
 Design a hardware device that
@@ -54,6 +55,7 @@ Can acts as IoT controller, keyboard key remapper, keyboard lighting effect cont
 
 ## Specific use cases 
 * Record and replay keystroke (UI automation method accessible to general users)
+* Keyboard automation for platform that only support simple keyboard, such as smart TV, PC BIOS/UEFI.
 * use as wireless keyboard and mouse only KVM. KVM is a device allow sharing one keyboard/monitor/mouse between multiple computers, it's mostly in server rooms/data centers where admins need a quick way to switch between servers. 
 * use as an wireless keylogger/injector (pen test tool)
 * Convert a bluetooth keyboard USB one (Most desktop computer does not have bluetooth, this allows desktop computer to use bluetooth keyboard)
@@ -84,6 +86,12 @@ Can acts as IoT controller, keyboard key remapper, keyboard lighting effect cont
 * General user with that wish to use keyboard/mouse to control IoT device.
 * General user that wish to use macro in locked down / hardware that they do not own.
 
+
+## What was done during the Hackerthon period ?
+* A software demo to demonstrate how macros can be used.
+* Lots of research on choosing the best component / cost optimisation
+* Ciruit schematic (mostly done)
+* PCM board layout (mostly done)
 
 
 ## What about software key mapper?
@@ -132,13 +140,21 @@ More importantly it represents the iterate/experiment/fail fast spirit.
 
 
 ## Challenges I ran into
-* There is no enough time to work on stuff
-
+* Managing time was a challange
+* Choosing component, often there are lot of simlar components with similar specs from different Manufacturer
 ## Accomplishments that I'm proud of
 
 
 ## What I learned
+* How to make a scanning key matrix:
+Scanning 
+
+
 
 
 ## What's next for Firestarter
-Oder PCB, write firmware, more testing. 
+Oder PCB, write firmware, internal testing. 
+Send sample to users and ask for feebacks.
+Open source the platform.
+Share it on keyboard / productivity forum
+Sell assembled hardware.
