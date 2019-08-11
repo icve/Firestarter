@@ -88,6 +88,8 @@ Can acts as IoT controller, keyboard key remapper, keyboard lighting effect cont
 
 
 ## What was done during the Hackerthon period ?
+* This design document which specify what the final product shoule look like and the
+cord idea of the project.
 * A software demo to demonstrate how macros can be used.
 * Lots of research on choosing the best component / cost optimisation
 * Ciruit schematic (mostly done)
@@ -143,11 +145,15 @@ More importantly it represents the iterate/experiment/fail fast spirit.
 * Managing time was a challange
 * Choosing component, often there are lot of simlar components with similar specs from different Manufacturer
 ## Accomplishments that I'm proud of
-
+* C
 
 ## What I learned
 * How to make a scanning key matrix:
-Scanning 
+Scanning key matrix is a technique to connect keys in row and columns in order to reduce the number of IO pin required to read the state of the switches. It number of IO pins with speed. 
+For example, for 3 * 5 keys: direct connection would use 15 IO pins, reading states of all key may take 100us.
+with the matrix scan technique, one would only require 8 IO pins, reading states  of all key may take 1000us.
+It is often acceptable to use key matrix for input device since human responses tend to be much slower.
+* with Low.js, one could run javascript code on a Microcontroller.
 
 
 
