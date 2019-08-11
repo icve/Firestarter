@@ -33,7 +33,7 @@ The short answer is `user experience` in `software`.
 
 **User friendliness**
 
-App store that allows user share develop more IoT integration and user to share their key map and settings.
+App store /package manager that allows user share develop more IoT integration and user to share their key map and settings.
 
 The device is 100% plug and play, there are no driver to be installed.
 
