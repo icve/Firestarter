@@ -52,6 +52,11 @@ The component chosen with low cost, simplicity and quality in mind.
 
 **versatile**
 Can acts as IoT controller, keyboard key remapper, keyboard lighting effect controller, Keylogger, Wireless key injector, keyboard/mouse only KVM.
+## Estamate Cost (per board):
+
+* less than $10 for the main board
+* less that $5 for the wireless capture & inject board.
+
 
 ## Specific use cases 
 * Record and replay keystroke (UI automation method accessible to general users)
@@ -62,7 +67,6 @@ Can acts as IoT controller, keyboard key remapper, keyboard lighting effect cont
 * Convert USB keyboard to wireless one
 * Connect and control IoT devices with dedicated key.
 * 
-
 
 ## Hardware product overview:
  **Main board:**
@@ -77,6 +81,13 @@ Can acts as IoT controller, keyboard key remapper, keyboard lighting effect cont
 **Wireless key injector & capture:**
 * A small device that can be connected to the main board through wirelessly and receive keys and commands from the main board.
 * Can be used as a wireless key injector & logger (pen test tool)
+
+
+## Estamated cost (per board):
+
+* less than $10 for the main board
+* less that $5 for the wireless capture & inject board.
+
 
 ## Target user:
 * Productivity users;
@@ -116,10 +127,6 @@ More importantly it represents the iterate/experiment/fail fast spirit.
 * Oled scree for displaying time simple UI
 * Keys: for menu access and setting up device without keyboard or computer
 
-## Estamate Cost (per board):
-
-* less than $10 for the main board
-* less that $5 for the wireless capture & inject board.
 
 ## Alternative name for the final product:
 * Fire starter is the project name for my own reference. Alternate  products name are being consider. (suggestion welcome ;)  
